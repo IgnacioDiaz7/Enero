@@ -2703,7 +2703,7 @@ textarea.form-control-lg {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   -webkit-appearance: none;
      -moz-appearance: none;
-          appearance: none;
+          appearance: null;
 }
 @media (prefers-reduced-motion: reduce) {
   .form-select {
