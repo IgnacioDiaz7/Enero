@@ -478,15 +478,91 @@
 
                         <li class="side-nav-title">Navigation</li>
 
-                        <li class="side-nav-item">
-                            <a href="index.html" class="side-nav-link">
-                                <i class="uil-home-alt"></i>
-                                <span class="badge bg-success float-end">5</span>
-                                <span> Dashboards </span>
+                        <li class="side-nav-item menuitem-active">
+                            <a data-bs-toggle="collapse" href="#sidebarDashboards" aria-expanded="false" aria-controls="sidebarDashboards" class="side-nav-link collapsed">
+                                <i class="uil-home-alt">
+                                    <span class="badge bg-success float-end">Nuevo!</span>
+                                    <span>Dashboards</span>
+                                </i>
                             </a>
                         </li>
+                        <div class="collapse" id="sidebarDashboards">
+                            <ul class="side-nav-second-level" >
+                                <li class="menuitem-active"> 
+                                    <a href="dash_sales.html" class="active"> Ventas </a>
+                                </li>
+                                <li>
+                                    <a href="dash_ihc.html"> Crédito IH</a>
+                                </li>
+                            </ul>
+                        </div>
 
-                        <li class="side-nav-title">Custom</li>
+                        <li class="side-nav-title">Administración</li>
+
+                        <li class="side-nav-tittle">
+                            <a data-bs-toggle="collapse" href="#sideMasters" aria-expanded="false" aria-controls="sideMaster" class="side-nav-link"> <span>Maestros</span></a>
+                            <div class="collapse" id="sideMasters" style>
+                                <a data-bs-toggle="collapse" href="#sideProducts" aria-expanded="false" aria-controls="sideProducts" class="side-nav-link">
+                                    <i class="uil-money-withdrawal"></i>
+                                    <span>Productos</span>
+                                </a>
+                                <div class="collapse" id="sideProducts" style>
+                                    <ul class="side-nav-second-level">
+                                        <li>
+                                            <a href="groupcat.html">Grupo</a>
+                                        </li>
+                                        <li>
+                                            <a href="famcat.html">Familias</a>
+                                        </li>
+                                        <li>
+                                            <a href="products.html">Productos</a>
+                                        </li>
+
+                                    </ul>
+                                </div>    
+                            
+                                <a data-bs-toggle="collapse" href="#sideCustomers" aria-expanded="false" aria-controls="sideCustomers" class="side-nav-link">
+                                    <i class="uil-money-withdrawal"></i>
+                                    <span>Clientes</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="side-nav-title">Soporte</li>
+                        <li class="side-nav-item">
+                            <a data-bs-toggle="collapse" href="#sideMonitor" aria-expanded="false" aria-controls="sideMonitor" class="side-nav-link">
+                                <span>Monitoreo</span>
+                            </a>
+                            <div class="collapse" id="sideMonitor" style>
+                                <ul class="side-nav-second-level" aria-expanded="false">
+                                    <li>
+                                        <a href="mon_delivery.html">
+                                            <span>Integradores</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mon_email.html">
+                                            <span>Correos</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mon_promo.html">
+                                            <span>Promociones</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mon_terminals.html">
+                                            <span>Terminales</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mon_wallets.html">
+                                            <span>Wallets</span>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </li>
 
                         <li class="side-nav-item">
                             <a data-bs-toggle="collapse" href="#sidebarPages" aria-expanded="false" aria-controls="sidebarPages" class="side-nav-link">
